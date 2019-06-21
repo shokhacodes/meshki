@@ -87,7 +87,18 @@ aside button{
 	text-align: left;
 	margin-top: 20px;
 }
-
+.text{
+	margin: 50px 0 0 80px;
+	font-size: 20px;
+}
+.text h4{
+	padding-left: 70px;
+}
+.text img{
+	transform: translate(15px, 5px);
+	height: 25px;
+	width: 25px;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1210px){
