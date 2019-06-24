@@ -195,6 +195,58 @@ span{
 .contacts p{
 
 }
+
+.questions {
+	display: grid;
+	grid-template-columns: 1fr 200px 1fr;
+	margin: 60px auto;
+	max-width: 1100px;
+}
+#question1{
+	justify-self: center;
+}
+#question1 h2{
+	font-size: 35px;
+	font-weight: 1000;
+}
+#question1 p{
+	font-size: 30px;
+	line-height: .1;
+}
+#img {
+	justify-self: center;
+	transform: translate(0, 25px);
+}
+#callus {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 50px 50px;
+}
+#callus h2{
+	font-size: 35px;
+	margin: 0 !important;
+}
+#callus a{
+	font-size: 25px;
+}
+#callus{
+	justify-self: center;
+	text-align: center;
+}
+#callus button{
+	width: 250px;
+	height: 45px;
+	border-radius: 5px;
+	background-color:  #008bce;
+	color: #fff;
+}
+#callus svg{
+	fill: #fff;
+	transform: translate(0, 4px);
+}
+#callus button div{
+	transform: translate(0, -4px);
+}
 /* MEDIA QUERIES */
 
 
