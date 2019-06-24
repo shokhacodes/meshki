@@ -173,6 +173,14 @@ span{
 .feature h3{
 	padding: 0 50px;
 }
+#floatright{
+	float: right;
+}
+
+.maintext{
+	width: 1100px;
+	margin: 60px auto;
+}
 /* MEDIA QUERIES */
 
 
