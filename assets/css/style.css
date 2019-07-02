@@ -36,6 +36,7 @@ nav {
 }
 #contacts p{
 	text-align: center;
+	content: #fff;
 }
 #contacts button {
 	width: 145px;
